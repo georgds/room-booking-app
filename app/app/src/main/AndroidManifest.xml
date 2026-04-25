@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mydsapp">
+
+    <application
+        android:allowBackup="true"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.MyDSapp">
+
+        <!-- Main entry -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Core menus -->
+        <activity android:name=".ClientMenu" android:exported="false" />
+        <activity android:name=".ManagerMenu" android:exported="false" />
+
+        <!-- Main screens -->
+        <activity android:name=".AddDates" android:exported="false" />
+        <activity android:name=".AddRooms" android:exported="false" />
+        <activity android:name=".BookRoom" android:exported="false" />
+        <activity android:name=".Search" android:exported="false" />
+        <activity android:name=".Statistics" android:exported="false" />
+        <activity android:name=".RateRoom" android:exported="false" />
+        <activity android:name=".PrintAccommodation" android:exported="false" />
+
+    </application>
+
+</manifest>

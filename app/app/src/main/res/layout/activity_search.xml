@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundColor"
+    tools:context=".Search">
+
+    <TextView
+        android:id="@+id/tfilters"
+        android:layout_width="283dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="40dp"
+        android:text="Choose your filters:"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.312"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tarea"
+        android:layout_width="57dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="44dp"
+        android:text="Area:"
+        android:textSize="23sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.112"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tfilters" />
+
+    <EditText
+        android:id="@+id/area"
+        android:layout_width="193dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="44dp"
+        android:hint="Text"
+        android:textSize="21sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.23"
+        app:layout_constraintStart_toEndOf="@+id/tarea"
+        app:layout_constraintTop_toBottomOf="@+id/tfilters" />
+
+    <TextView
+        android:id="@+id/tdates"
+        android:layout_width="82dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="24dp"
+        android:text="Dates:"
+        android:textSize="23sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.112"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tarea" />
+
+    <EditText
+        android:id="@+id/dates"
+        android:layout_width="286dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="28dp"
+        android:hint="DD/MM/YYYY, DD/MM/YYYY"
+        android:textSize="21sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/tdates"
+        app:layout_constraintTop_toBottomOf="@+id/area" />
+
+    <TextView
+        android:id="@+id/tpeople"
+        android:layout_width="211dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="20dp"
+        android:text="Number of persons:"
+        android:textSize="23sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tdates" />
+
+    <EditText
+        android:id="@+id/people"
+        android:layout_width="123dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="20dp"
+        android:hint="Number"
+        android:textSize="21sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.567"
+        app:layout_constraintStart_toEndOf="@+id/tpeople"
+        app:layout_constraintTop_toBottomOf="@+id/dates" />
+
+    <TextView
+        android:id="@+id/tprice"
+        android:layout_width="73dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="16dp"
+        android:text="Price:"
+        android:textSize="23sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.118"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tpeople"/>
+
+    <EditText
+        android:id="@+id/price"
+        android:layout_width="174dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="24dp"
+        android:hint="Number"
+        android:textSize="21sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.161"
+        app:layout_constraintStart_toEndOf="@+id/tprice"
+        app:layout_constraintTop_toBottomOf="@+id/people" />
+
+    <TextView
+        android:id="@+id/tstars"
+        android:layout_width="78dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="24dp"
+        android:text="Stars:"
+        android:textSize="23sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.123"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tprice" />
+
+    <EditText
+        android:id="@+id/stars"
+        android:layout_width="164dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:hint="Number"
+        android:textSize="21sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.109"
+        app:layout_constraintStart_toEndOf="@+id/tstars"
+        app:layout_constraintTop_toBottomOf="@+id/price" />
+
+    <Button
+        android:id="@+id/next"
+        android:layout_width="98dp"
+        android:layout_height="57dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="92dp"
+        android:padding="8dp"
+        android:text="Done"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tstars"
+        app:layout_constraintVertical_bias="0.317" />
+
+    <Button
+        android:id="@+id/returnbutton"
+        android:layout_width="92dp"
+        android:layout_height="57dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="72dp"
+        android:padding="8dp"
+        android:text="Return"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.128"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/next" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

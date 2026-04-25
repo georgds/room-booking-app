@@ -1,0 +1,122 @@
+[
+  {
+    "roomID": 1,
+    "roomName": "Nimbu",
+    "noOfPersons": 4,
+    "area": "Athens",
+    "stars": 3,
+    "noOfReviews": 150,
+    "price": 60,
+    "roomImage": "room1.png"
+  },
+  {
+    "roomID": 2,
+    "roomName": "Casalino",
+    "noOfPersons": 3,
+    "area": "Paros",
+    "stars": 5,
+    "noOfReviews": 100,
+    "price": 900,
+    "roomImage": "room2.png"
+  },
+  {
+    "roomID": 3,
+    "roomName": "Alexa's",
+    "noOfPersons": 5,
+    "area": "Naxos",
+    "stars": 3,
+    "noOfReviews": 120,
+    "price": 90,
+    "roomImage": "room3.png"
+  },
+  {
+    "roomID": 4,
+    "roomName": "Nomad",
+    "noOfPersons": 2,
+    "area": "Naxos",
+    "stars": 4,
+    "noOfReviews": 120,
+    "price": 900,
+    "roomImage": "room4.png"
+  },
+  {
+    "roomID": 5,
+    "roomName": "WaterGate",
+    "noOfPersons": 2,
+    "area": "Paros",
+    "stars": 4,
+    "noOfReviews": 200,
+    "price": 800,
+    "roomImage": "room5.png"
+  },
+  {
+    "roomID": 6,
+    "roomName": "Bloom",
+    "noOfPersons": 5,
+    "area": "Athens",
+    "stars": 3,
+    "noOfReviews": 16,
+    "price": 100,
+    "roomImage": "room6.png"
+  },
+  {
+    "roomID": 7,
+    "roomName": "Shepia",
+    "noOfPersons": 4,
+    "area": "Athens",
+    "stars": 1,
+    "noOfReviews": 15,
+    "price": 50,
+    "roomImage": "room7.png"
+  },
+  {
+    "roomID": 8,
+    "roomName": "Savin",
+    "noOfPersons": 3,
+    "area": "Paros",
+    "stars": 1,
+    "noOfReviews": 30,
+    "price": 90,
+    "roomImage": "room8.png"
+  },
+  {
+    "roomID": 9,
+    "roomName": "Coral",
+    "noOfPersons": 1,
+    "area": "Naxos",
+    "stars": 4,
+    "noOfReviews": 400,
+    "price": 1000,
+    "roomImage": "room9.png"
+  },
+  {
+    "roomID": 10,
+    "roomName": "Zenstay",
+    "noOfPersons": 2,
+    "area": "Paros",
+    "stars": 1,
+    "noOfReviews": 5,
+    "price": 30,
+    "roomImage": "room10.png"
+  },
+  {
+    "roomID": 11,
+    "roomName": "Moerana",
+    "noOfPersons": 4,
+    "area": "Naxos",
+    "stars": 3,
+    "noOfReviews": 150,
+    "price": 150,
+    "roomImage": "room11.png"
+  },
+  {
+    "roomID": 12,
+    "roomName": "Grand",
+    "noOfPersons": 1,
+    "area": "Athens",
+    "stars": 3,
+    "noOfReviews": 120,
+    "price": 150,
+    "roomImage": "room12.png"
+  }
+]

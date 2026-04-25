@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundColor"
+    tools:context=".ClientMenu">
+
+    <TextView
+        android:id="@+id/option"
+        android:layout_width="283dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="116dp"
+        android:text="Choose your action:"
+        android:textSize="23sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.31"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/searchbutton"
+        android:layout_width="149dp"
+        android:layout_height="78dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="56dp"
+        android:padding="8dp"
+        android:text="Search"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/option" />
+
+    <Button
+        android:id="@+id/reservebutton"
+        android:layout_width="149dp"
+        android:layout_height="78dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:padding="8dp"
+        android:text="Book room"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/searchbutton" />
+
+    <Button
+        android:id="@+id/ratebutton"
+        android:layout_width="149dp"
+        android:layout_height="78dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:padding="8dp"
+        android:text="Rate room"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/reservebutton" />
+
+    <Button
+        android:id="@+id/returnbutton"
+        android:layout_width="161dp"
+        android:layout_height="82dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="32dp"
+        android:padding="8dp"
+        android:text="Return"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.524"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ratebutton" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

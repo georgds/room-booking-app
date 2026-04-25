@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundColor">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="178dp"
+        android:layout_height="156dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/nameTextView"
+        android:layout_width="56dp"
+        android:layout_height="26dp"
+        android:text="Name:"
+        android:textSize="18sp"
+        app:layout_constraintStart_toEndOf="@+id/image"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/rnameTextView"
+        android:layout_width="175dp"
+        android:layout_height="26dp"
+        android:text="rname"
+        android:textSize="18sp"
+        app:layout_constraintStart_toEndOf="@+id/nameTextView"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/areaTextView"
+        android:layout_width="53dp"
+        android:layout_height="26dp"
+        android:text="Area:"
+        android:textSize="18sp"
+        app:layout_constraintStart_toEndOf="@+id/image"
+        app:layout_constraintTop_toBottomOf="@+id/nameTextView" />
+
+    <TextView
+        android:id="@+id/rareaTextView"
+        android:layout_width="178dp"
+        android:layout_height="26dp"
+        android:text="rArea"
+        android:textSize="18sp"
+        app:layout_constraintStart_toEndOf="@+id/areaTextView"
+        app:layout_constraintTop_toBottomOf="@+id/rnameTextView" />
+
+    <TextView
+        android:id="@+id/peopleTextView"
+        android:layout_width="155dp"
+        android:layout_height="26dp"
+        android:text="Number of people:"
+        android:textSize="18sp"
+        app:layout_constraintStart_toEndOf="@+id/image"
+        app:layout_constraintTop_toBottomOf="@+id/areaTextView" />
+
+    <TextView
+        android:id="@+id/rpeopleTextView"
+        android:layout_width="78dp"
+        android:layout_height="26dp"
+        android:text="rpeople"
+        android:textSize="18sp"
+        app:layout_constraintStart_toEndOf="@+id/peopleTextView"
+        app:layout_constraintTop_toBottomOf="@+id/rareaTextView" />
+
+    <TextView
+        android:id="@+id/priceTextView"
+        android:layout_width="49dp"
+        android:layout_height="26dp"
+        android:text="Price:"
+        android:textSize="18sp"
+        app:layout_constraintStart_toEndOf="@+id/image"
+        app:layout_constraintTop_toBottomOf="@+id/peopleTextView" />
+
+    <TextView
+        android:id="@+id/rpriceTextView"
+        android:layout_width="180dp"
+        android:layout_height="26dp"
+        android:text="rprice"
+        android:textSize="18sp"
+        app:layout_constraintStart_toEndOf="@+id/priceTextView"
+        app:layout_constraintTop_toBottomOf="@+id/rpeopleTextView" />
+
+    <TextView
+        android:id="@+id/starsTextView"
+        android:layout_width="54dp"
+        android:layout_height="26dp"
+        android:text="Stars:"
+        android:textSize="18sp"
+        app:layout_constraintStart_toEndOf="@+id/image"
+        app:layout_constraintTop_toBottomOf="@+id/priceTextView" />
+
+    <TextView
+        android:id="@+id/rstarsTextView"
+        android:layout_width="175dp"
+        android:layout_height="26dp"
+        android:text="rstars"
+        android:textSize="18sp"
+        app:layout_constraintStart_toEndOf="@+id/starsTextView"
+        app:layout_constraintTop_toBottomOf="@+id/rpriceTextView" />
+
+    <TextView
+        android:id="@+id/reviewsTextView"
+        android:layout_width="164dp"
+        android:layout_height="26dp"
+        android:text="Number of reviews:"
+        android:textSize="18sp"
+        app:layout_constraintStart_toEndOf="@+id/image"
+        app:layout_constraintTop_toBottomOf="@+id/starsTextView" />
+
+    <TextView
+        android:id="@+id/rreviewsTextView"
+        android:layout_width="65dp"
+        android:layout_height="26dp"
+        android:text="rreviews"
+        android:textSize="18sp"
+        app:layout_constraintStart_toEndOf="@+id/reviewsTextView"
+        app:layout_constraintTop_toBottomOf="@+id/rstarsTextView" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
